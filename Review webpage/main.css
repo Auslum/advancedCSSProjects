@@ -18,8 +18,11 @@ h1, h2 {
 
 h1 {
     font-size: 4rem;
-    color: black;
     margin: 0.75em 0;
+}
+
+h1 a {
+    color: black;
 }
 
 a {
@@ -35,6 +38,10 @@ nav {
     color: #898989;
     border-top: 2px solid #E9E9E9;
     border-bottom: 2px solid #E9E9E9;
+}
+
+nav a {
+    color: #898989;
 }
 
 nav ul li {
