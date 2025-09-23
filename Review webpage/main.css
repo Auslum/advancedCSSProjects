@@ -21,14 +21,9 @@ h1 {
     margin: 0.75em 0;
 }
 
-h1 a {
-    color: black;
-}
-
 a {
     text-decoration: none;
 }
-
 
 nav {
     font-family: "Lora", serif;
@@ -36,18 +31,29 @@ nav {
     font-weight: 500;
     text-transform: uppercase;
     color: #898989;
-    border-top: 2px solid #E9E9E9;
-    border-bottom: 2px solid #E9E9E9;
+    border-top: 2px solid #d0d0d0;
+    border-bottom: 2px solid #d0d0d0;
 }
 
-nav a {
-    color: #898989;
+a:link, a:visited {
+    color: #666;
+}
+
+a:active {
+    color: #DEB887;
+}
+
+a:hover {
+    color: #00ddff;
 }
 
 nav ul li {
     padding: 10px 0;
 }
 
+h1 a:visited, h1 a:hover, h1 a:active {
+    color: #333;
+}
 
 h2 {
     color: #898989;
@@ -58,7 +64,7 @@ h2 {
     color: black;
     text-align: right;
     padding-bottom: 0.4em;
-    border-bottom: 2px solid #E9E9E9;
+    border-bottom: 2px solid #d0d0d0;
 }
 
 article {
@@ -76,11 +82,8 @@ section figure {
 
 section p {
     text-align: left;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-}
-
-section a {
-    color: #898989;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #333;
 }
 
