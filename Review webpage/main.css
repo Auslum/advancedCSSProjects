@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin: 15px;
+}
+
+h1, h2 {
+    font-family: "Lora", serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 4rem;
+    color: black;
+    margin: 0.75em 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+nav {
+    font-family: "Lora", serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #898989;
+    border-top: 2px solid #E9E9E9;
+    border-bottom: 2px solid #E9E9E9;
+}
+
+nav ul li {
+    padding: 10px 0;
+}
+
+
+h2 {
+    color: #898989;
+}
+
+.post-date {
+    text-transform: uppercase;
+    color: black;
+    text-align: right;
+    padding-bottom: 0.4em;
+    border-bottom: 2px solid #E9E9E9;
+}
+
+article {
+    margin: 3em 0;
+}
+
+section h2 {
+    margin-top: 1em;
+    text-align: left;
+}
+
+section figure {
+    margin: 1em 0;
+}
+
+section p {
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+section a {
+    color: #898989;
+}
+
