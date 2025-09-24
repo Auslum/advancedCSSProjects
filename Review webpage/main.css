@@ -88,3 +88,52 @@ section p {
     color: #333;
 }
 
+@media (min-width: 650px) {
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        list-style: none;
+        padding: 0; 
+        margin: 0;
+    }
+
+    nav ul li {
+        margin: 0 0.5em;
+    }
+
+    main {
+        margin-top: 1.2em;
+    }
+
+    article {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0;
+    }
+    
+    .post-date {
+        border-bottom: none;
+        grid-column: 1 / 2;
+        margin: 1.2em 0.5rem 0 0;
+    }
+
+    article > section {
+        grid-column: 2 / 5;
+
+    }
+
+    section {
+        border-bottom: 2px solid #d0d0d0;
+        border-left: 2px solid #d0d0d0;
+    }
+
+    section h2 {
+        margin-top: 0;
+        text-align: left;
+    }
+
+    section h2, section figure, section p {
+        margin: 1.2em 0 1.5em 0.5rem;
+    }
+}
