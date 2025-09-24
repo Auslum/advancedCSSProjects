@@ -35,6 +35,10 @@ nav {
     border-bottom: 2px solid #d0d0d0;
 }
 
+h1 a:visited, h1 a:hover, h1 a:active {
+    color: #333;
+}
+
 a:link, a:visited {
     color: #666;
 }
@@ -51,9 +55,6 @@ nav ul li {
     padding: 10px 0;
 }
 
-h1 a:visited, h1 a:hover, h1 a:active {
-    color: #333;
-}
 
 h2 {
     color: #898989;
